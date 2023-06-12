@@ -50,13 +50,13 @@ main#main {
     width: 100%;
     margin-inline: auto;
     position: relative;
-    height: 100vmax;
+    height: 100vh;
     overflow-y: scroll;
     scroll-snap-type: y mandatory;
 
     section.main__sections {
         height: 100vh;
-        scroll-snap-align: center;
+        scroll-snap-align: start;
         scroll-snap-stop: always;
         position: relative;
 
