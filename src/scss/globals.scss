@@ -10,10 +10,20 @@
     src: url(/fonts/OpenSauceSans-SemiBold.ttf);
 }
 
+@property --gradient-angle {
+    syntax: "<angle>";
+    initial-value: 0deg;
+    inherits: false;
+}
+
 :root {
     color-scheme: light dark;
     color: rgba(255, 255, 255, 0.87);
     background-color: #06002e;
+
+    --clr-1: #6a13be;
+    --clr-2: #816be0;
+    --clr-3: #53f2fd;
 }
 
 ::-webkit-scrollbar {
@@ -52,6 +62,7 @@ body {
     opacity: 1 !important;
     translate: 0 0 !important;
 }
+
 
 @media (prefers-color-scheme: light) {
     :root {
